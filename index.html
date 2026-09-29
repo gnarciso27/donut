@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donuts do Seu Gosto | Cardápio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="cabeca">
+  <a class="logo" href="#inicio"><img src="imagemdonut.jpg" alt="Donuts do Seu Gosto"></a>
+  <nav><a href="#cardapio">Cardápio</a><a href="#sobre">Sobre</a></nav>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div>
+    <span class="eyebrow">🍩 FEITO DO SEU JEITO</span>
+    <h1>Donuts<br><b>do seu gosto</b></h1>
+    <p>Um cardápio especial para você escolher seu donut favorito.</p>
+    <a class="btn" href="#cardapio">Ver cardápio</a>
+  </div>
+  <div class="hero-art">
+    <div class="big-donut"><div class="hole"></div><i></i><i></i><i></i><i></i><i></i></div>
+    <span>✦</span><em>✧</em>
+  </div>
+</section>
+
+<section class="menu" id="cardapio">
+  <div class="heading">
+    <span>CARDÁPIO</span>
+    <h2>Escolha o seu donut 🍩</h2>
+    <p>Sabores, coberturas e recheios para todos os gostos.</p>
+  </div>
+
+  <div class="filters">
+    <button class="active" data-filter="todos">Todos</button>
+    <button data-filter="classicos">Clássicos</button>
+    <button data-filter="especiais">Especiais</button>
+    <button data-filter="recheados">Recheados</button>
+  </div>
+
+  <div class="grid">
+    <article data-cat="classicos"><div class="photo pink">🍩</div><div class="body"><small>CLÁSSICO</small><h3>Donut Tradicional</h3><p>Massa fofinha com cobertura de açúcar.</p><strong>R$ 8,00</strong></div></article>
+    <article data-cat="classicos"><div class="photo chocolate">🍩</div><div class="body"><small>CLÁSSICO</small><h3>Chocolate</h3><p>Cobertura de chocolate e confeitos.</p><strong>R$ 9,00</strong></div></article>
+    <article data-cat="classicos"><div class="photo strawberry">🍩</div><div class="body"><small>CLÁSSICO</small><h3>Morango</h3><p>Cobertura de morango com granulado.</p><strong>R$ 9,00</strong></div></article>
+
+    <article data-cat="especiais"><div class="photo pink">🍩</div><div class="body"><small>ESPECIAL</small><h3>Pink Donut</h3><p>Cobertura rosa cremosa e confeitos.</p><strong>R$ 10,00</strong></div></article>
+    <article data-cat="especiais"><div class="photo cream">🍩</div><div class="body"><small>ESPECIAL</small><h3>Caramelo</h3><p>Caramelo cremoso com finalização especial.</p><strong>R$ 10,00</strong></div></article>
+    <article data-cat="especiais"><div class="photo chocolate">🍩</div><div class="body"><small>ESPECIAL</small><h3>Chocolate & Morango</h3><p>Combinação de chocolate e morango.</p><strong>R$ 11,00</strong></div></article>
+
+    <article data-cat="recheados"><div class="photo cream">🍩</div><div class="body"><small>RECHEADO</small><h3>Doce de Leite</h3><p>Donut macio recheado com doce de leite.</p><strong>R$ 11,00</strong></div></article>
+    <article data-cat="recheados"><div class="photo chocolate">🍩</div><div class="body"><small>RECHEADO</small><h3>Brigadeiro</h3><p>Recheio cremoso de brigadeiro.</p><strong>R$ 11,00</strong></div></article>
+    <article data-cat="recheados"><div class="photo pink">🍩</div><div class="body"><small>RECHEADO</small><h3>Creme de Morango</h3><p>Recheio suave de morango e cobertura rosa.</p><strong>R$ 12,00</strong></div></article>
+  </div>
+</section>
+
+<section class="about" id="sobre">
+  <div><span>💗 DONUTS DO SEU GOSTO</span><h2>Do jeitinho que você gosta.</h2><p>Escolha seu sabor favorito e aproveite uma experiência doce, colorida e feita com carinho.</p></div>
+  <div class="about-donut">🍩</div>
+</section>
+</main>
+
+<footer><b>Donuts do seu gosto</b> 🍩<p>Um pedacinho de felicidade em forma de donut.</p><small>© 2026 Donuts do Seu Gosto</small></footer>
+<script src="script.js"></script>
+</body>
+</html>
